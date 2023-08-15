@@ -14,7 +14,7 @@ Go to `Newsfeed.tsx` and find `NewsfeedQuery` so that you can add the new field:
 ```
 const NewsfeedQuery = graphql`
   query NewsfeedQuery {
-    topStory {
+    top_story {
       title
       summary
       // change-line
